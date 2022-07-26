@@ -1,10 +1,65 @@
-- This procedure replaces Request and Delivery Of Goods From Warehouse Central To Farms code JCVsS-Inv-02 approved on Dec 2020
+Effective
+Operation
+DELIVERY
+CENTRAL
+Slip
+Finance
+OBJECTIVES
+APPROVED
+Production
+procedure
+Central
+procedure
+Operation
+Ensure
+software
+approved
+FINANCIAL
+OPERATION
+Contract
+delivered
+PROCEDURE
+CONSULTED
+Central
+Delivery
+PROPOSED
+limit
+delivered
+Accounting
+OPERATION
+updated
+JAPFA COMFEED VIETNAM
+SWINE SOUTH ________
+Page 1 of 2
+I. ________:
+- Departments must follow time ________ for goods to be ________ on time
+- Goods is ________ from ________ Warehouse to Farms with the right quantity, quality and ________ into the
+________ timely
+- ________ biosecurity at the farms
+II. SCOPE:
+- This ________ is applied for JAPFA Vietnam Swine ________ in South.
+- This ________ replaces Request and ________ Of Goods From Warehouse ________ To Farms code JCVsS-Inv-02 ________ on Dec 2020
 III. ABBREVIATIONS:
-AHP : Animal Health Product JF : Japfa’s Farms
-AP : Authorized Person MRRS : Material Request and Receive Slip
-CGF : Contract Growing Farm PPIC : Production Planning & Inventory Control
-F&A : Finance & Accounting RF : Rental Farm
+AHP : Animal Health Product JF : Japfa's Farms
+AP : Authorized Person MRRS : Material Request and Receive ________
+CGF : ________ Growing Farm PPIC : ________ Planning & Inventory Control
+F&A : ________ & ________ RF : Rental Farm
 HO : Head Office
-PROCEDURE FOR DELIVERY OF GOODS
-FROM WAREHOUSE CENTRAL TO
+________ FOR ________ OF GOODS
+FROM WAREHOUSE ________ TO
 FARMS
+________ : Swine
+Field : Inventory
+Code : JCV-sS-Inv-02R1
+Page : 2
+________ date :
+________ BY ________ BY
+________ CONTROLLER HEAD OF SWINE ________, SOUTH
+Tommy Yance Manawan
+Date ……/……/……
+Francisco Jose Domingues
+Date ……/……/……
+________ BY
+HEAD OF IC & SOP
+FARM PROCUREMENT
+MANAGER
