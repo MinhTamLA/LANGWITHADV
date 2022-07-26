@@ -1,0 +1,10 @@
+- This procedure replaces Request and Delivery Of Goods From Warehouse Central To Farms code JCVsS-Inv-02 approved on Dec 2020
+III. ABBREVIATIONS:
+AHP : Animal Health Product JF : Japfa’s Farms
+AP : Authorized Person MRRS : Material Request and Receive Slip
+CGF : Contract Growing Farm PPIC : Production Planning & Inventory Control
+F&A : Finance & Accounting RF : Rental Farm
+HO : Head Office
+PROCEDURE FOR DELIVERY OF GOODS
+FROM WAREHOUSE CENTRAL TO
+FARMS
