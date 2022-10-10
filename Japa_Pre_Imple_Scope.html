@@ -1,0 +1,522 @@
+	
+ 	 
+Pre-Implementation Scope
+VIETNAM SWINE OPERATION
+	
+ 
+Summary
+OVERVIEW	
+Project Team	3
+STATEMENT OF SCOPE	
+Current Company Facility Structure	
+SWINE OPERATION	
+Mobile App	
+Planning – Inventory Management Tool	
+Costing	
+Business Intelligence	
+IDENTIFIED GAP LIST	
+INTEGRATIONS	
+DATA LOAD*	
+SOW PRODUCTION	
+GROWER PRODUCTION	
+CUSTOMIZATIONS	
+REPORTS	
+RISKS	
+GLOSSARY	
+
+ 
+Overview
+This document describes the process discovery carried out during the onsite visit and pre-implementation meetings that took place between September 05 and 16, 2022, involving the MTech and Japfa team.
+The information contained in this document will guide the system implementation project and will be used for system configurations and developments.
+This document covers the processes for inventory management of piglets in nursery, fattening pigs, wean to finish farms, selling center operation, sow farms, genetic evaluation, delivery/consumption of feed, medicines, vaccines, and field products. We will also capture expected system integrations and critical reports. In the feed process the focus of the analysis was only the delivery planning and excludes the production of finished feed and raw material management which is currently handled in SAP. 
+The main goal of this implementation is to improve the traceability, costing, genetics evaluations and technology management improvement. The goal is to remove the papers and external spreadsheets control and keep within a whole software solution. In the planning projection process, apart from the Inventory Management and projections it is also contemplated the Feed Delivery Scheduling Assistant (FDSA).  
+
+Project Team
+Name	Role	Email
+MTECH SYSTEMS
+Lee Stewart	Project Manager	leestewart@mtech-systems.com
+Daniel Gomez	Project Team	danielgomez@mtech-systems.com
+Adriel Boaventura	Project Team	adrielboaventura@mtech-systems.com
+John Kidd	Sales Director	johnkidd@mtech-systems.com
+		
+BOD
+Nguyen Chi Cong	Head Of North Area - Japfa Vietnam	cong.nguyenchi@japfa.com
+Sanjeev Kumar	Head South - Japfa Vietnam	sanjeev.kumar@japfa.com
+Tommy Yance Manawan	Financial Controller - Finance & Accounting - Japfa Vietnam	tommy.manawan@japfa.com
+Eu Kwang Chin	Chief Digitalisation Officer - Japfa Group	kwangchin.eu@japfa.com
+		
+JAPFA SWINE PRODUCTION SOUTH
+Francisco Jose Domingues Junior	Head - Swine South - Japfa Vietnam	francisco.domingues@japfa.com
+Joao Bosco Leite	Production Senior Manager - Swine South - Japfa Vietnam	bosco.leite@japfa.com
+Fernando Henrique Queiroz Lima	Acting WTF Manager - Swine South - Japfa Vietnam	fernando.lima@japfa.com
+Tran Pham Tien Thinh	Asst. To Swine Production - Swine South	thinh.tranphamtien@japfa.com
+Tong Thi Thanh Huyen	Assistant to Head Project Development - Swine South - Japfa Vietnam	huyen.tongthithanh@japfa.com
+Tran Gia Lam	BTW GP Sow Manager - Swine South - Japfa Vietnam	lam.trangia@japfa.com
+Le Thi Hang	BTW PS1 Manager - Swine South - Japfa Vietnam	hang.lethi@japfa.com
+Nguyen Thi Hang Ni	Sow Farm Asst. Manager - Swine South	ni.nguyenthihang@japfa.com
+		
+JAPFA GENETICS
+Luiz Henrique Volpato	Swine GGP Senior Manager - Swine South - Japfa Vietnam	luiz.volpato@japfa.com
+Nguyen Dinh Bac	AI Center Technical Services - Swine South	bac.nguyendinh@japfa.com
+Konrad Broekman (Hendrix)	Hendrix Senior Geneticist Northern Europe & Asia	konrad.Broekman@hendrix-genetics.com
+		
+PROJECT
+Nguyen Tran Hoang Ngau	SAP Master Data Manager - Finance & Accounting - Japfa Vietnam	ngau.nguyentranhoang@japfa.com
+Le Truong Giang	Head of Accounting - Finance Control - Japfa Vietnam	giang.letruong@japfa.com
+Dao The Lam	Management Accounting Senior Manager, North - Finance Control - Japfa Vietnam	lam.daothe@japfa.com
+Le Nguyen Phuong Hieu	Accounting Senior Manager, Swine - Finance & Accounting - Japfa Vietnam	hieu.lenguyenphuong@japfa.com;
+Le Tan Nhat	IT Head - Finance & Accounting - Japfa Vietnam	nhat.letan@japfa.com
+Prasetyo Andy Susanto	Swine PPIC Sr.Manager - Swine South - Japfa Vietnam	prasetyo.susanto@japfa.com
+Andhy Rizal Musthofa	Swine BTW Farm Supervisor PS3 - Swine South - Japfa Vietnam	rizal.andhy@japfa.com
+Tran Ngoc Thinh	Assistant to Head of Swine Operation- Swine North - Japfa Vietnam	thinh.tranngoc@japfa.com
+Dong Thi Thu Chien	Swine PPIC Assistant Manager- Swine North - Japfa Vietnam	chien.dong@japfa.com
+		
+CORP IT
+Franciscus Reza Paul Adam	Deputy Head - Corporate IT - Japfa Group	Franciscus.Adam@japfa.com
+Eka Tjahjadi Setiawan	Head of Global SAP Center of Excellence - Corporate IT - Japfa Group	eka.setiawan@japfa.com
+Agatha Cynthia	SAP Functional Analyst - Corporate IT - Japfa Group	agatha.cynthia@japfa.com
+Hendra Kurniawan	SAP Cash to Cash Solution Architect - Corporate IT - Japfa Group	hendra.kurniawan@japfa.com
+Aloysius Matz Teguh Utomo	SAP Functional Analyst - Corporate IT - Japfa Group	matz.utomo@japfa.com
+		
+LAB
+Mauricio Cabral Dutra	Lab – Japfa Vietnam	mauricio.dutra@japfa.com
+Nguyen Trong Cuong	Swine Animal Health Manager- Swine North - Japfa Vietnam	cuong.nguyentrong@japfa.com
+Tran Thi Kim Khanh	Animal Health Lab Manager - Poultry South - Japfa Vietnam	khanh.tranthikim@japfa.com
+		
+		
+PURCHASING
+Phan Thi Hong Thanh	Farm Procurement Senior Manager - Procurement South - Japfa Vietnam	thanh.phanhong@japfa.com
+Le Mai Lan	Procurement Senior Manager Poultry & Swine - Procurement North - Japfa Vietnam	lan.lemai@japfa.com
+		
+SALES
+Do Hoang Long	Swine Commercial Sales & Rental Farm Development Senior Manager - Swine North - Japfa Vietnam	long.dohoang@japfa.com
+Tran Tot Anh	Sales Manager - Swine South - Japfa Vietnam	anh.trantot@japfa.com
+Nguyen Thi Ngoc Diem	Assistant to Head - Swine South - Japfa Vietnam	diem.nguyenthingoc@japfa.com
+		
+BI
+Erica Singgih	Head of Global Business Intelligence Center of Excellence - Corporate IT - Japfa Group	erica.singgih@japfa.com
+Albert Tjahyono	Business Intelligence Functional Analyst - Corporate IT - Japfa Group	albert.tjahyono@japfa.com
+		
+PWC
+Aik Sern Lee (VN)	PWC Director	lee.aik.sern@pwc.com
+La Tran Minh (VN)	PWC Senior Manager	la.tran.minh@pwc.com
+Gracie Mai (SG)
+	PWC Team	gracie.m.mai@pwc.com
+Sasha Quak (SG)	PWC Team	sasha.s.quak@pwc.com
+Nguyen Thoa (VN)	PWC Team	nguyen.thoa@pwc.com
+ 
+Statement of Scope
+In the pre-implementation meetings operational processes were presented by Japfa and  discussions were aimed at aligning these with how equivalent processes are managed in MTech. The scope of the processes discussed were: 
+1)	Stock management
+2)	Mobile transactions
+3)	Managerial information
+4)	Purchasing
+5)	Sales
+6)	Costing
+7)	Feed delivery planning
+8)	Genetic Improvement
+9)	Traceability and evaluation
+10)	Telemetric data
+11)	Settlements
+12)	Laboratory transactions
+13)	System integrations
+
+The current livestock operational data of the farms is held on PigChamp and with in-house systems (Feed IC, StockIC). The BI analysis is managed by the internal Japfa team. The genetic evaluation is provided by Hypor, and the remaining operation is managed within excel files.
+We will capture key processes in this section and establish a starting point for the scope of the project. 
+In Scope:
+Area	
+Stock management	•	Management  the productive and reproductive process of sow, gilt and boar farms, nursery, fattening and wean to finish farms
+•	Individual piglet tracking in GGP and GP farms
+•	Weaned piglet to commercial farm inventory? - MTech to advise. Current strategy is NOT to use based on industry wide standards and size of operation. 
+•	Farm/warehouse product inventory tracking and valuation
+•	Laboratory transactions
+•	“Group-Batch” reporting by farm - SIM
+Mobile transactions	•	Sow events and piglet tracking
+•	Piglet tracking - SIM
+•	Nursery/Fattening field transaction tracking
+•	Product inventory usage 
+Managerial information	•	Standard ETL, Data Warehouse, and MTech Axis reporting
+•	Integration to Japfa “Snowflake” data repository
+Purchasing	•	Purchase Order (PO) management 
+•	product receipt
+•	PPV calculation initiated from SAP  
+Sales	•	Sales order (SO) management
+•	Sale of pig/piglet priced by wieght
+•	Sales invoice initiation
+•	Sales invoice meta-data creation
+•	Credit hold integration from SAP
+Costing	•	Sow valuations based on stage and averaged “sow days” by farm except for:
+•	“Gilt” (Build-up, Genetic) cost by Sow
+•	Depreciation by Sow
+
+•	Transfer of Depreciation cost (genetic cost) to follow the piglets (custom task?)
+•	GIM valuation by “Entity” (flock, batch)
+•	Inter-Company logic for feed deliveries
+Feed delivery planning	•	Proactive feed ordering for GIM farms
+•	Explore “automatic” feed ordering for IoT feed silo farms
+Gentic improvement	Data exchange with Hypor to support genetic nucleus reporting in MTech
+Traceability and evaluation	Sow to Selling Center traceability. Currently we lose traceability via the “pool” that is the selling center. Discussed with Japfa future efforts to partition the selling center. 
+Telemetric data	Controller data to MTech “Sonar” product. 
+Settlements	Contract grower payment calculation (including bonuses + penalties) and buyer-created invoice generation.
+System integrations	•	Historical data loading: 
+               1) All available for SIM 
+               2) Active entities only for GIM
+*see “Integrations” section for list of all identified integrations we may include in this project
+
+Out of Scope:
+Area	
+Purchasing	Initial Invoice entry – Japfa to implement invoice scanning solution. Discuss integration of any PPV.
+Sales	•	Scalehead integration – keep legacy Japfa system
+•	Invoice printing and distribution
+Stock management	Image archiving
+Costing	Consolidated financial reporting in MTech (P+L, Income statement, etc.)
+
+Assumptions  :
+Area	
+Stock management	Historical data will be of reasonable quality and availability
+IT	Sites with user interfacing will have reasonable internet connectivity
+Human Resources	Ensuring that people are committed and able to fulfill the activities
+	
+
+ 
+Current Company Facility Structure
+Currently facility structure within Japfa is as described below:
+Facility	South	North	Total
+GGP Farms	2	1	3
+GP Farms	4	2	6
+PS Farms	17	16	33
+AI Center	3	4	7
+RF - Nursery	All CGF	8 (6 to 40 houses each)	8
+CGF – WTF (Contract Growers)	365 (1 to 6 flocks)	116 (1 to 10 flocks)	481
+CGF – Nursery (Contract Growers)	13 (6 to 40 houses)		13
+Selling Center	2	0 – Customers get from the farm	2
+Feed Mills	4	3	7
+
+Japfa moves animals only within Vietnam and the feed are provided by company owned feed mill which are treated as separate “companies” in SAP thus facilitating “Inter-Company” logic in MTech. In the South we have the concept of “Selling Center” which receives live animals and sell them every day, not keeping any inventory since there is also no feed available in the facility. This facility receives fattening pigs and sow/gilts animals.
+Current Systems used to capture live operations data:
+-	Pig Champ (Sow data)
+-	In house app-Swine Production, Farm IC/Feed IC, Stock IC
+-	Farm XP (GGP BL - Hypor)
+-	SD FA (Fix Asset)
+-	Stock IC (Sale – Weighing)
+-	SD GL (Oracle)
+
+Cost Centers (Profit Center)
+
+For Farms, one cost center per SIM farm will be established while one cost center in GIM will typically represent many farms.
+The cost center master data in MTech will align to the SAP concept of “Profit Center” and will facilitate a straight forward mapping exercise.
+Swine Operation
+The processes described in this document contemplates the management and planning activities that will be taken place within MTech. All integrations with SAP, Hypor and Japfa’s In-house system will be operated as the following flows.
+1)	Macro Flow (without Identified Piglets) using STOCK IC: 
+   
+ 
+2)	Macro Flow without identifies piglets:
+  
+3)	Macro Flow (Genetics - Identified Piglets):
+ 
+ 
+4)	Sale Macro Flow:
+  
+ 
+5)	Purchase Macro Flow:
+ 
+
+ 
+6)	Animal Sale Flow
+  
+7)	Feed Planning with Intercompany Flow:
+  
+8)	Lab with warehouse control
+ 
+
+9)	Cost Summary Flow
+  
+10)	Master Data Flow:
+ 
+ 
+Below are described the main transactions that will happen within the system, with additional details related to Japfa’s process.
+Company	•	There is 3 financial company to be set in MTech:
+-	Japfa Swine Vietnam (VN21)
+-	Hypor (VN22)
+-	Feed Mill (VN20)
+Farms and Houses	•	The master data will resides in MTech. SAP only will have the Cost Center
+•	Farm and House Attributes will be set in MTech (Ex: Drinkers/feeder type)
+•	Targets will be set by Farm to be used in Reports and in Mobile App.
+•	Some Farms will have the same cost center (profit center).
+Individual Animal Identification	•	Sows, Gilts, Boars, and Identified Piglets on GGP will be created within MTech.
+•	Japfa will use the Identification Parameter master data to identify the animal “Entity Number” and maintain the unique identification for each animal. This is similar to the current “Tattoo Series” that Hypor provides. PENDING JAPFA TO DEFINE
+•	Replacements from GGP to GP and Commercial Farms will keep the same identification of the animal to easily keep track of the events.
+•	Japfa will also use other identifications available for the animals, such as Tattoo ID, RFID, Ear tag ID.
+•	This operation is expected to be used in the mobile app.
+Entity Identification (Group of Animals in Grower Sites)   	•	The identification for each entity within a Nursery, Fattening, Wean to Finish or Selling Center will be created within MTech. 
+•	The entities are created at Farm-House Level. Some entities may differentiate the sex (Animal Product) in MTech. 
+•	Entity Numbering will be based on year and week (YYYYWW) for each farm and will be manually entered by user
+•	To manage different sexes (Animal Product) within MTech it will be required to create different levels for the same Entity with different houses to keep the transactions separated.
+Pigs Transfer In (Placement Transfers in Grower Groups)	•	Placements are based on Head Quantity, Weight and Grades (Transfer Conditions).
+•	This behaviour is the same for Nursery, Fattening, Wean to Finish and Selling Center Entities.
+•	The entity closeout in MTech (after removing all the animals) will have to calculate export the costing to SAP in the end of the period.
+•	Traceability for the Entity   is available within the Entity screen. 
+•	Placements must be done at the same level of the transaction level control in order to maintain the inventory management (mortalities, culls, etc.)
+•	It is possible to create survey check lists to ease the entity entity follow-up and health status. This can be set at Question, Answer and Score level for each process. This is expected to be used within the Mobile App.
+•	It is expected to be possible report farms by location to avoid double entry of the Farm.
+Identified Piglets Replacements	•	Identified Piglets from GGP/GP farms will be managed within MTech and the transfers will move the costs of the animals back to the herd structure.
+•	It is required to keep track of the costing on the stages within the piglet’s stages.
+•	It is also possible to transfer identified piglets to Grower entities on Nursery/Wean to Finish farms.
+•	This operation is expected to be used in the mobile application.
+Feed	•	MTech will be responsible to plan the feed planning and delivery.
+•	For the Feed Formula Version, it will be required to keep an integration to keep the master data up to date with the nutrientes, which can be used later to measure the calories.
+•	The goal is to keep the feed inventory in the farms.
+•	Some farms keep bags stock instead of Silos.
+•	The price of feed will be zero for intercompany transaction between Vietnam Farms and Vietnam Feed Mills. Hypor will have a price list fixed for intercompany operations. 
+Grower Field Transactions	•	Field Transactions managed are Mortality, Culls, Water Level, Lagoon Levels, and any other measure required can be added as a user field
+•	The field transactions must be inputted in the same granularity level of the placement (pig in transfer). 
+•	Different KPIS for Cull, Mortality and Sales are expected.
+Herd Events (Sow and Identified Piglets Farms)	•	The current events available in MTech is enough to manage the farms.
+•	Mark for Cull will be used as a Non-Productive Event.
+•	Flagged will be used as an Animal for Observation or Quarantine event.
+•	It is required to keep track of the Generation of the animal within the events. It must change the generation of the animal and maintain the link of which parity it happened.
+•	Piglets’ events available in MTech is enough to manage the genetic piglets’ details.
+•	It is expected to have an integration with RFID Scanner for location movements within the farm.
+•	It is expected to record inseminations, farrow and weanings in batch transactions using one as reference and then making slightly changes if required. That must also tie the event to a batching master data system to use it as reference for other events, reports and interfaces. Some farms have batch systems by week and others for 3 to 5 weeks represents a “group batch”, thefore the batch system must be set at farm level with differents period ranges.
+Lab Analysis / Health Status	•	Currently Japfa records all lab analysis in excel and in-house software.
+•	It is expected to integrate with lab data and receive information on MTech.
+•	Lab results can affect planning or transfer transactions, for instance piglets PCR-PRRS and/or PCR-PED positive at weaning should be delivered to CGFs (Contract Growing Farm), not being allowed to place them in RFs (Rental Farms); We have adopted this policy to minimize risks in RFs due large number of animals present in these sites
+•	The current structure of Lab analysis on MTech is enough to manage the data.
+•	Lab will also be created as a warehouse to keep inventory of chhemical products and transfer to entities.
+Farm Visitors and Surveys	•	Surveys will be created in MTech to manage the technician/vet visit and score of the farm.
+•	It is expected to record geolocation and integration with Farm logging device, having entry and exit time. 
+•	Survey checklists can be dynamically created in MTech (Questions, Answers and Score).
+Inventory Tool / Sales Projection	•	Sales Projection will be created to external plants in MTech to be used in Inventory Tool.
+•	Inventory Tool will be used as a complete visualization for on-hand inventory.
+Sales / Selling Center	•	Sales can be done straight from the farm or from a Selling Center.
+•	Piglets can be sold since the Weaned Stage.
+•	Selling Center will be created as a farm facility in MTech to receive the animals and keep traceability from the source farm.
+•	The shrink/weight loss in the selling center facility can be reported in MTech.
+•	Raising a Sales order will begin in MTECH and integrate back to SAP approve the credit limit. After approved, SAP will export the approval back to MTech and later on invoice on MTech.
+•	The Price must be by KG and by customer.
+Carcass Evaluation 	•	Currently there is not data    received from plants but in the future Japfa will have an owned plant (slaughter facility) and it may provide carcass data.
+Vaccine, Medications and Field Products 	•	The master data of products will be kept in the ERP and interfaced to MTech. Additional information can be added on MTech to keep track of live operations particularities.
+•	The consumption will be based on delivery for the farms.
+•	There will be an inventory management for products within a warehouse.
+Grower Payment (Settlement)	•	The grower payment for fattening farms is expected to be calculated in MTech and exported back to SAP.
+•	Currently only one sow farm have settlement payment and it will not be part of MTech scope. It will continued to be calculated manually by Japfa.
+  
+Mobile App
+One of the main goals of the project with Japfa is to include the mobile technology on the data gathering for all the farms. For that, below is a list of the expected functionalities in the mobile application to be used by the Vet or the Farmer. 
+Expected functionalities on MTech App (Grower Farms management):
+Functionality for Grower Farms	Tech/Vet	Farmer
+Farm Schedule	X	
+Survey Checklist	X	
+Geolocation   and Farm Visit	X	
+Health Status	X	
+Entity Summary Report	X	X
+Placement/Transfer Schedule Visualization	X	X
+Visualization of Supplies Sent to the Farmer	X	X
+Processing Schedule Visualization	X	X
+Vaccine/Medication Consumption	X	X
+Entity Closeout Visualization	X	X
+Field Transaction Record (Mortality, Culls, Technical Guidelines)	X	X
+View specifics PDF Reports on Mobility	X	X
+Feed Stock Update	X	X
+Feed Request	X	X
+Feed Delivery Schedule Visualization	X	X
+QR Code Scanner	X	X
+
+Additional   management expected to be available on the Radius Swine (Sow management) app:
+Functionality for Sow and Identified Piglets Events
+Location Event to move animals within houses/crate/pen
+Individual Piglet Events during the Farrow, Fostering and Weaning
+Piglet Data Entry structure for all herd events
+Piglet Entity Summary
+Include all different types of identification types for an Entity
+Piglet Replacement Transfer
+Vaccine/Medication Consumption
+QR Code Scanner
+ 
+Planning – Inventory Management Tool
+The inventory management tool allows to schedule the placement, transfers and slaughter/sale of pigs based on the weaning/slaughter schedule. For Japfa’s environment, the weaning accommodation schedule will present the Grower sites and not the identified piglets. For nursery/finishing/wean to finish placement, the system considers all available farms, houses and the availability of entity groups created in the system. For the plant slaughter schedule, the projected and the actual number of pigs available in the entities group are considered based on the calendar and target settings.
+It is expected to see the entities age within the cards summary to support in the decision making.
+
+Costing
+MTech will be responsible to calculate the direct cost of the production and allocate values from SAP based on the Sow/Pig Days. It is required to keep track of the cost movement within the GGP farms for the individual piglets’ stages.
+Period End will be based on the fiscal calendar which currently works monthly and there will not be a period end calculation for Hypor Company. 
+Reverse journals settings will be used to keep track of the integrations.
+The transfer of depreciation should follow the weaned piglets for replacement as per below Japfa process:
+ 
+GGP/GP – Only want to include DEPR cost with SELECTED piglets. All other GEST/FARROWING costs spread evenly
+a.	If no Selected Piglets, then go ahead and move genetic cost with the Unselected and BoarS - ****This should never really happen
+b.	When it comes to the DEPR (genetic) cost accumulated on the farm, we need to calculate the per piglet cost of DEPR ONLY for the SELECTED total piglets on the farm. There is an event to set this selected stage, and there is a transfer transaction = “Replacement”. These two need to be present in order to move the genetic cost.
+c.	All other pigs get the non DEPR costs. 
+d.	SOW-FARROW move
+
+Business Intelligence
+Japfa have an internal development team using PowerBI and Qlik business intelligence tool. The goal is to keep that management within Japfa’s team and provide the necessary data to display on their BI solution. It is expected to connect to the data warehouse database of MTech to allow data extraction for the Japfa’s BI Team develop their dashboards inhouse using Snowlake.
+MTech will also provide its standard BI solution within MTech for the users. 
+
+ 
+Identified GAP List
+The identified gap list below may become developments for the first version, future version, or custom development exclusively for Japfa. Until the end of the pre-implementation process all this gaps status will be defined.
+Area	Description	Priority
+(H/M/L)	Complexity
+(1-5 most)	Notes
+SONAR	Maximus Integration - SOW	L	3	Per JK
+Piglets	Piglet Inventory PE functionality
+   -Sales, COGS
+   -SIM Transfers/Replacements	H	5	Not implemented
+Sales	Cannot transfer SOW to GIM farm for sales center. Instead we would just set up a sales center for the SIM. 	L	1	Determine if we would add this? Discuss with 
+PE	Amortization tables need to be implemented in SIM for Product and Generation. 	H	3	
+Product Usage	Batch Treatment – Explore batch issuing of product at farm.			
+Reporting	Establish “Group Batch” at the Farm level. 			
+Events/Field/ Product Usage	Present Group Batch in Event entity selection (multi-select).
+Present Stage. 			Stage? Discuss further.
+Events	Flagged, Mark for Culling. Do we want to add new events here or repurpose existing ones. 
+
+Repurpose.			Flagged could be Quarantine or Animal for Observation and Mark for Cull the non-productive event.
+BI	Diagnosis Tree. We don’t have this right now. Determine priority. Likely to shift BI reporting requirements back Japfa’s way as they are implementing a company wide “snowflake” data system.			
+Event Planning	Vaccine Program management. Determine current functionality. 			
+Report	Show treatments on Sow History Report.			
+Reporting	Genetic Depreciation on pigs to finish.			
+Transfers	How to identify the SOWs
+1)	Use piglet inventory 
+2)	Otherwise establish user field for Group Batch and get in reporting			
+Events	Record Generation Code	M		
+Multi Language	Get Vietnamese translation			
+Farm Stage	Create “MIXED” option for farm, then identify at house. 	H	5	
+UX/UI in MTech	Piglet Mortality, Cull, Defects recorded within Farrow or Weaning Transaction as shortcuts	L	3	Noted by Adriel
+Lab	Results must avoid transfers to specific farms	L	3	
+PE	"Selected” Piglets Depreciation. Transfer, really.	H	4	
+Radius Swine	Include option to syncronize less data – only active or by stage	M	4	
+Radius Swine	Action List Reports to see (due to farrow, due to wean, etc.)	M	3	
+Radius Swine	Identify piglets events/movements in radius swine	H	5	
+Radius Swine	Add missing Sow/Boar Events	H	3	
+Radius Swine	Add Product usage for Sows/Identified Piglets	H	5	
+FDSA	Projections based not a real inventory / considering depletion %	M	5	
+Supply Chain Management	Create entities for projections	M	5	
+Supply Chain Management	Allow to see the age of the entity in the inventory tool	L	1	
+Sales	Need to add weight and use pork market price by weight – associate the pay basis on the sales SKU by Pork Market Price?	H	5	
+Entity Master	Identification Parameter screen must differenciate the dead categories from live born live.	H	3	
+ 
+Integrations
+In the list below, you will find the integrations mapped within the pre-implementation phase. During the implementation phase, the details on what the interfaces will transfer data will be developed together with Japfa’s team. The project will contemplate the initial data load interfaces that will be required to bring the historical data for the sow farms and the current active entities group on the grower farms.
+Item	Module	Type	Description	Dest./Source	Notes
+1	AP	Export	Purchase Order	SAP	
+2	AP	Export	Purchase Invoice	SAP	
+3	AR	Export	Sales Order	SAP	
+4	AR	Import	Sales Order Approval	SAP	
+5	AR	Export	Sales Invoice Meta Data	SAP	May have to go to 2 systems, Scale System for dispatch and SAP for archiving.
+6	BI	Export	Data Warehouse Export	Snowflake	Daily
+7	FDSA	Import	Feed Formula Version Ingredients	BESTMIX	Request from Francisco
+8	FDSA	Export	Planned feed orders		
+9	FDSA	Import	Loaded feed orders		
+10	Master	Import	Animal Products	SAP	
+11	Master	Import	Feed Products	SAP	
+12	Master	Import	Customers	SAP	
+13	Master	Import	Exchange Rate	SAP	
+14	Master	Import	Payment Terms	SAP	
+15	Master	Import	Price List	SAP	
+16	Master 	Import	Vendors	SAP	
+17	Master 	Import	Field Products	SAP	
+18	Sow	Export	Location Movement RFID Scanner	Controller	
+19	Sow	Export	Data to Calculate BLUP (Hypor)	Hypor	Daily/Weekly
+20	Sow	Import	Calculated BLUP Indexes (Hypor)	Hypor	
+21	Swine	Export	Period End Cost	SAP	
+22	Swine	Export	Settlement Payment	SAP	
+23	Swine	Import	Scale Data –Pigs/Wt.	Japfa Systems	Enter manually or build integration?
+24	Swine	Import	Farm Visitors Log	Controller	
+25	Swine	Import	Data load*	PigChamp / Japfa systems	
+
+ 
+Data Load*
+Sow Production
+-	Combine Data load based on the manual and files from Hendrix with PigChamp data. This is required to being the piglets history.
+-	There is different historical years among the farms, the oldest is since 2007. 
+-	Farm Bihn Lonng has a different package of data from “FarmWindows” from Agrovision all others are on PigChamp.
+-	A validation from Japfa is expected after the data is loaded
+
+
+Grower Production
+-	Grower production will be loaded based on the current active groups/entities in the farms. 
+Customizations
+Some operations listed in this document have the mention that a customization will be required. The customization is a change in the default behaviour of the system and will only be available on the Japfa’s solution. The items below already have their functionality detail in the description of this document, so, below we only summary which points will require customizations:
+Hypor Integration
+Basics from now is to export the data based on the manuals and import back. PigChamp is exporting file and they are doing manually the import with the Hendrix Admin user. Rules described in additional file provided by Mr. Konrad from Hypor (Guidance File - MTECH – Hypor data recording and data exchange_Page18-30.pdf)
+
+o	FarmWindows is the system that Hendrix uses from Agrivision
+o	All ggp/gp farms will be entered in MTech and data will be exported on specific periods (Daily/weekly)
+o	Only will import blup values and will not need to keep track of historical EBV indexes
+o	Import of Kinship is to be mapped in the future, currently it is not done.
+o	Null values must be sent as question mark "?"
+o	The goal is to exchange data using API. The API is still under development on Hypor side and there is no customer using it as of now.
+o	Records already sent to Hendrix that have any change must be sent again. No problem sending the same record if the last date was modified.
+o	It is not allowed to always resend the farm whole history because it resets the farm settings in Hypor.
+o	Each Event Type must have a unique key number (refno) (description: 20220912_APPENDIX B_Hypor data exchange from Hypor client to Hypor breeding PIGS01).
+
+Genetic Cost Transfer
+o	Only move the cost with selected piglets. Right now the genetic cost is higher than the Feed Cost.
+o	It also considers the Genetic Royalters structure.
+
+
+ 
+Settlements
+o	Requirements
+Reports
+Users were presented with the functionality of extracting data as reports on the existing MTech screens to extract entities KPIs. Users also mentioned the main reports of the processes that are currently used in PigChamp. The reports in MTech have the same formula calculation as PigChamp and it is expected to provide a report builder training so that Japfa’s team can develop their own Reports. 
+Below is the list of reports that will be considered the basis for the commercial proposal. The reports in this list may be replaced by others or combined in other reports that contain the same information structure and, provided that the development effort is compatible.
+Item	Report	Example File	Module
+1	Settlement Report
+ 	Waiting for example	Grower
+	Sales Billing Report	Waiting for example	
+	Sales Summary Report	Waiting for example	
+	Procurement Report	Waiting for example	
+	Grower Custom Statistics Report	Waiting for example	Grower
+	Custom Sow Card Report		Sow
+	Sales Invoice	Waiting for example	
+			
+			
+			
+			
+			
+
+
+ 
+Risks
+This section lists the risks to implement the project.
+Item	Description
+1	ERP Feed Mill Scope change on how to setup the cost profit / cost center structure involving inter-company logic
+2	API Development with Hypor Hendrix timeline and development effort
+3	Records changing and deletion traceability for all events required by Hypor 
+	Mobile application performance at remote sites
+	Genetic data validation efforts. Historically this takes more time than customer/Mtech expect
+
+ 
+Glossary
+This section is designed to provide a guidance for the terms used in MTech against what Japfa uses and a brief description on what this means.
+MTech	Japfa	Description
+Entity	Batch / Group	Identitification of an Individual Animal or a Group of Animals in the Fattening
+Finisher	Fattening	Farm/Group Stage
+Transfer	Pig In / Pig Out	Animal Transfer Operation
+House	Barn / House	Place where animals are
+Cost Center	Profit Center	
+Account	Cost Center	Different MTech accounts
+		
+		
+Sales		
+AR		
+COGS (Cost of goods sold)		
+AR Accrual		
+FX (Foreign Exchange)		
+		
+Purchasing		
+AP		
+AP Accrual		
+PPV (Purchase Price Variance)		
+FX Gain/Loss		
+		
+Genetics		
+EBV	BLUP Values	Estimated Breeding Value
+		
+		
+		
+		
+
+
