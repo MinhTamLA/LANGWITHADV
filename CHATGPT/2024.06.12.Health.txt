@@ -1,0 +1,96 @@
+. peaceful village - serene hamlet			. peaceful village - tranquil village						. peaceful village - calm settlement						. peaceful village - quiet village
+. countryside - rural area			. countryside - pastoral land						. countryside - rural countryside						. countryside - rural region
+. modest house - humble abode			. modest house - simple dwelling						. modest house - small residence						. modest house - unpretentious home
+. dedicated mother - devoted parent			. dedicated mother - committed mom						. dedicated mother - loyal parent						. dedicated mother - committed caregiver
+. care for - look after			. care for - tend to						. care for - attend to						. care for - look after
+. high fever - severe temperature			. high fever - elevated fever						. high fever - intense fever						. high fever - elevated temperature
+. worried - concerned			. worried - anxious						. worried - troubled						. worried - fretful
+. health center - clinic			. health center - wellness center						. health center - health clinic						. health center - medical center
+. medical check-up - health examination			. medical check-up - physical exam						. medical check-up - health check						. medical check-up - health assessment
+. doctor - physician			. doctor - medical practitioner						. doctor - clinician						. doctor - medical professional
+. pneumonia - lung infection			. pneumonia - respiratory infection						. pneumonia - bronchial infection						. pneumonia - lung ailment
+. hospitalization - inpatient care			. hospitalization - admission						. hospitalization - confinement						. hospitalization - patient admission
+. treatment - therapy			. treatment - medical care						. treatment - medical intervention						. treatment - remedy
+. hospital - medical facility			. hospital - healthcare institution						. hospital - infirmary						. hospital - medical institution
+. stay by the side of - remain with			. stay by the side of - accompany						. stay by the side of - stay with						. stay by the side of - remain beside
+. encourage - motivate			. encourage - inspire						. encourage - uplift						. encourage - hearten
+. overcome - conquer			. overcome - surmount						. overcome - prevail						. overcome - defeat
+. dedicated treatment - specialized care			. dedicated treatment - focused therapy						. dedicated treatment - intensive care						. dedicated treatment - targeted care
+. recover - recuperate			. recover - heal						. recover - get better						. recover - bounce back
+. discharge - release			. discharge - send home						. discharge - release from care						. discharge - dismissal
+. health care - medical services			. health care - health services						. health care - health management						. health care - medical attention
+. seminar - workshop			. seminar - symposium						. seminar - conference						. seminar - lecture
+. nutrition - dietetics			. nutrition - nourishment						. nutrition - dietary intake						. nutrition - sustenance
+. healthcare - medical care			. healthcare - health provision						. healthcare - medical treatment						. healthcare - health services
+. knowledge - understanding			. knowledge - expertise						. knowledge - wisdom						. knowledge - learning
+. nurturing - fostering			. nurturing - caring						. nurturing - nourishing						. nurturing - nurturing
+. taking care of - looking after			. taking care of - attending to						. taking care of - tending to						. taking care of - caregiving
+. issues - concerns			. issues - problems						. issues - matters						. issues - difficulties
+. vaccination - immunization			. vaccination - inoculation						. vaccination - immunization shot						. vaccination - inoculation
+. hesitant - reluctant			. hesitant - unsure						. hesitant - indecisive						. hesitant - uncertain
+. lack of information - uninformed			. lack of information - misinformation						. lack of information - insufficient knowledge						. lack of information - ignorance
+. share - distribute			. share - communicate						. share - pass on						. share - impart
+. talk - speak			. talk - chat						. talk - converse						. talk - communicate
+. consult - confer			. consult - seek advice						. consult - seek counsel						. consult - advise
+. answer questions - respond to inquiries			. answer questions - address inquiries						. answer questions - field inquiries						. answer questions - respond to questions
+. encourage - support			. encourage - cheer						. encourage - boost						. encourage - urge
+. full vaccination - complete immunization			. full vaccination - complete vaccination						. full vaccination - full immunization						. full vaccination - complete vaccination
+. living environment - habitat			. living environment - living conditions						. living environment - living space						. living environment - habitat
+. clean - tidy			. clean - spotless						. clean - immaculate						. clean - sanitary
+. safe - secure			. safe - protected						. safe - harmless						. safe - secure
+. health protection - wellness safeguarding			. health protection - health security						. health protection - health preservation						. health protection - health security
+. mobilize - rally			. mobilize - galvanize						. mobilize - organize						. mobilize - deploy
+. clean up - tidy up			. clean up - clear up						. clean up - clean out						. clean up - sanitize
+. maintain hygiene - uphold cleanliness			. maintain hygiene - sustain cleanliness						. maintain hygiene - keep clean						. maintain hygiene - ensure cleanliness
+. build - construct			. build - erect						. build - develop						. build - construct
+. playground - play area			. playground - play park						. playground - recreation area						. playground - play zone
+. plant trees - cultivate trees			. plant trees - grow trees						. plant trees - plant saplings						. plant trees - sow trees
+. wastewater treatment system - sewage treatment facility			. wastewater treatment system - water purification system						. wastewater treatment system - sewage system						. wastewater treatment system - waste treatment facility
+. old friend - longtime companion			. old friend - longtime friend						. old friend - dear friend						. old friend - familiar friend
+. nutritionist - dietitian			. nutritionist - nutrition expert						. nutritionist - diet expert						. nutritionist - dietary consultant
+. happy - joyful			. happy - delighted						. happy - contented						. happy - joyous
+. looking forward to meeting - anticipating the encounter			. looking forward to meeting - eager to meet						. looking forward to meeting - keen to meet						. looking forward to meeting - eager to meet
+. talk - converse			. talk - discuss						. talk - dialogue						. talk - speak
+. nutrition - dietary science			. nutrition - dietary regimen						. nutrition - dietary habits						. nutrition - diet
+. child health - pediatric wellness			. child health - juvenile health						. child health - pediatric health						. child health - pediatric wellness
+. successful - accomplished			. successful - triumphant						. successful - prosperous						. successful - effective
+. useful information - valuable data			. useful information - helpful data						. useful information - pertinent information						. useful information - beneficial information
+. food selection - dietary choices			. food selection - meal choices						. food selection - food choices						. food selection - food choices
+. diet - nutrition plan			. diet - eating plan						. diet - nutritional plan						. diet - meal plan
+. excited - enthusiastic			. excited - thrilled						. excited - exhilarated						. excited - eager
+. ask many questions - inquire extensively			. ask many questions - pose numerous questions						. ask many questions - ask numerous questions						. ask many questions - ask several questions
+. answer - respond			. answer - reply						. answer - respond to						. answer - reply to
+. provide - supply			. provide - furnish						. provide - deliver						. provide - supply
+. materials - resources			. materials - supplies						. materials - documents						. materials - content
+. guides - instructions			. guides - manuals						. guides - handbooks						. guides - directions
+. significantly improved - greatly enhanced			. significantly improved - markedly better						. significantly improved - vastly bettered						. significantly improved - greatly improved
+. apply - implement			. apply - utilize						. apply - employ						. apply - utilize
+. happy - pleased			. happy - content						. happy - joyful						. happy - pleased
+. proud - satisfied			. proud - pleased						. proud - gratified						. proud - prideful
+. contribute - donate			. contribute - support						. contribute - add to						. contribute - give
+. improve - enhance			. improve - upgrade						. improve - refine						. improve - better
+. community health - public wellness			. community health - societal health						. community health - public health						. community health - public health
+. smooth - effortless			. smooth - seamless						. smooth - fluid						. smooth - effortless
+. epidemic - outbreak			. epidemic - contagion						. epidemic - pandemic						. epidemic - disease outbreak
+. break out - erupt			. break out - flare up						. break out - spread						. break out - emerge
+. cooperate - collaborate			. cooperate - coordinate						. cooperate - collaborate with						. cooperate - work together
+. health authorities - medical officials			. health authorities - health officials						. health authorities - public health officials						. health authorities - medical authorities
+. prevent - avert			. prevent - halt						. prevent - impede						. prevent - stop
+. spread - transmission			. spread - dissemination						. spread - proliferation						. spread - dissemination
+. awareness campaigns - education initiatives			. awareness campaigns - outreach programs						. awareness campaigns - public education efforts						. awareness campaigns - awareness programs
+. prevention - deterrence			. prevention - prophylaxis						. prevention - prevention measures						. prevention - preventive measures
+. health care - medical attention			. health care - health management						. health care - health support						. health care - medical care
+. effort - endeavor			. effort - attempt						. effort - exertion						. effort - attempt
+. controlled - managed			. controlled - contained						. controlled - regulated						. controlled - contained
+. serious consequences - severe outcomes			. serious consequences - dire repercussions						. serious consequences - grave outcomes						. serious consequences - dire consequences
+. determined - resolute			. determined - driven						. determined - resolute						. determined - steadfast
+. proof - evidence			. proof - verification						. proof - confirmation						. proof - evidence
+. modern society - contemporary community			. modern society - present-day society						. modern society - contemporary society						. modern society - present society
+. health care - health services			. health care - health treatment						. health care - health provision						. health care - medical treatment
+. extremely important - crucial			. extremely important - essential						. extremely important - vital						. extremely important - critical
+. care - concern			. care - attention						. care - concern for						. care - attention
+. knowledge - awareness			. knowledge - know-how						. knowledge - information						. knowledge - understanding
+. improve - better			. improve - ameliorate						. improve - enhance						. improve - enhance
+. quality of life - living standards			. quality of life - life quality						. quality of life - standard of living						. quality of life - life quality
+. health protection - disease prevention			. health protection - health defense						. health protection - health safeguard						. health protection - wellness protection
+. future generations - posterity			. future generations - descendants						. future generations - offspring						. future generations - posterity
